@@ -1,0 +1,23 @@
+.widespread {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    height: 100vh;
+  }
+  
+.text-column {
+flex-basis: 60%;
+padding: 10%;
+box-sizing: border-box;
+}
+
+.spline-column {
+flex-basis: 40%;
+padding: 20px;
+box-sizing: border-box;
+}
+

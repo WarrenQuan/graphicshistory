@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from "./components/home/Home";
+import Prehistory from "./components/pre-history/Prehistory";
+import Modern from "./components/modern/Modern";
+import CAD from "./components/cad_modeling/CAD";
+import ADAM from "./components/ADAM/ADAM";
+import Opensource from "./components/opensource/Opensource";
+import Widespread from "./components/widespread/Widespread";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="sections">
+        <Home/>
+        <Prehistory/>
+        <CAD/>
+        <ADAM/>
+        <Widespread/>
+        <Opensource/>
+        <Modern/>
+      </div>
+  </div>
   );
 }
 
